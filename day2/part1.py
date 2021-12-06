@@ -1,4 +1,5 @@
 # Day 2, part 1 of Advent of Code
+# https://adventofcode.com/2021/day/2
 
 # Open the file and put each line in a list
 with open('input.txt', 'r') as f:

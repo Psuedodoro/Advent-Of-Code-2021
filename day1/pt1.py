@@ -1,3 +1,7 @@
+# Day 1, Part 1 of AOC 2021
+# https://adventofcode.com/2021/day/1
+
+
 def get_increases(numbers):
     increasedAmount = 0
 
