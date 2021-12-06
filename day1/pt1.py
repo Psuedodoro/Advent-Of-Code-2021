@@ -4,9 +4,8 @@ def get_increases(numbers):
     # Loop through the data
     for i in range(len(numbers)):
         number = numbers[i]
-        if i != 0:
-            if number > numbers[i - 1]:
-                increasedAmount += 1
+        if i != 0 and number > numbers[i - 1]:
+            increasedAmount += 1
 
     print("Increments:", increasedAmount)
 
