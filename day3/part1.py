@@ -6,7 +6,7 @@ from utils import getFreq
 
 def getGammaRate(data):
     gammaRate = []
-    for i in range(0, len(data[0])):
+    for i in range(len(data[0])):
         binNumber = [x[i] for x in data]
         avg = getFreq(binNumber)
         mostCommon = max(avg, key=avg.get)
@@ -18,7 +18,7 @@ def getGammaRate(data):
 
 def getEpsilon(data):
     epsilonRate = []
-    for i in range(0, len(data[0])):
+    for i in range(len(data[0])):
         binNumber = [x[i] for x in data]
         avg = getFreq(binNumber)
         leastCommon = min(avg, key=avg.get)
